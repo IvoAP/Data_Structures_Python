@@ -9,7 +9,6 @@ class Linked_List:
         self.head = None
 
     def append(self, value):
-        # check if the list is empty
         print("Value: ",value)
         if not self.head:
             self.head = List_Node(value)

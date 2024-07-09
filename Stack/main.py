@@ -34,4 +34,4 @@ print("Popped element:", stack.pop())
 try:
     stack.pop()
 except IndexError as e:
-    print("Error:", e)  # Deve retornar "pop from empty stack"
+    print("Error:", e) 
